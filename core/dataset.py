@@ -96,7 +96,7 @@ class Dataset(object):
                         batch_bboxes[num][i, :] = bboxes[i][:4][[1, 0, 3, 2]] / self.train_input_size
                     num += 1
                 self.batch_count += 1
-                print (index)
+                # print (index)
                 return batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox, \
                        batch_sbboxes, batch_mbboxes, batch_lbboxes, batch_bboxes
             else:

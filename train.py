@@ -43,10 +43,8 @@ class YoloTrain(object):
         self.gpus = utils.get_available_gpus(cfg.TRAIN.GPU_NUM)
         self.steps_per_period    = len(self.trainset) // len(self.gpus)
         self.sess                = tf.Session(config=tf.ConfigProto(allow_soft_placement=True))
-        # os.environ["CUDA_VISIBLE_DEVICES"] = cfg.TRAIN.GPU
         self.batch_size_per_gpu = cfg.TRAIN.BATCH_SIZE // cfg.TRAIN.GPU_NUM
         self.clone_scopes = ['clone_%d'%(idx) for idx in range(len(self.gpus))]
-        self.stage_status = 1
 
         # warmup_steps作用：   
         # 神经网络在刚开始训练的过程中容易出现loss=NaN的情况，为了尽量避免这个情况，因此初始的学习率设置得很低
@@ -66,7 +64,6 @@ class YoloTrain(object):
                                         (self.global_step - warmup_steps) / (train_steps - warmup_steps) * np.pi))
             )
             self.global_step_update = tf.assign_add(self.global_step, 1.0)
-            # self.global_step = tf.train.get_or_create_global_step()
 
         # shadow_variable = decay * shadow_variable + (1 - decay) * variable
         with tf.name_scope("define_weight_decay"):
@@ -77,15 +74,7 @@ class YoloTrain(object):
             self.saver  = tf.train.Saver(tf.global_variables(), max_to_keep=5)
 
         with tf.name_scope('define_input'):
-            # self.input_data   = tf.placeholder(dtype=tf.float32, name='input_data')
-            # self.label_sbbox  = tf.placeholder(dtype=tf.float32, name='label_sbbox')
-            # self.label_mbbox  = tf.placeholder(dtype=tf.float32, name='label_mbbox')
-            # self.label_lbbox  = tf.placeholder(dtype=tf.float32, name='label_lbbox')
-            # self.true_sbboxes = tf.placeholder(dtype=tf.float32, name='sbboxes')
-            # self.true_mbboxes = tf.placeholder(dtype=tf.float32, name='mbboxes')
-            # self.true_lbboxes = tf.placeholder(dtype=tf.float32, name='lbboxes')
             self.trainable     = tf.placeholder(dtype=tf.bool, name='training')
-            # self.batch_bboxes_gt = tf.placeholder(dtype=tf.float32, name='batch_bboxes_gt')
 
         # 只训练指定的层，不会一团糟吗？
         with tf.name_scope("define_first_stage_train"):
@@ -99,10 +88,8 @@ class YoloTrain(object):
         with tf.device('/cpu:0'):
             dataset = tf.data.Dataset.from_generator(lambda: self.trainset, \
                 output_types=(tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32))
-            # dataset = dataset.shuffle(buffer_size=100)
-            # dataset = dataset.batch(1)
             dataset = dataset.repeat()
-            dataset = dataset.prefetch(buffer_size=100)
+            dataset = dataset.prefetch(buffer_size=50)
             dataset_iter = dataset.make_one_shot_iterator()
             input_data, label_sbbox, label_mbbox, label_lbbox, \
                                     true_sbboxes, true_mbboxes, true_lbboxes, batch_bboxes_gt = dataset_iter.get_next()
@@ -119,8 +106,6 @@ class YoloTrain(object):
             with tf.variable_scope(tf.get_variable_scope(), reuse = reuse):
                 with tf.name_scope(self.clone_scopes[clone_idx]) as clone_scope:
                     with tf.device(gpu) as clone_device:
-                        with tf.name_scope("define_loss"):
-                            
                             model = YOLOV3(input_data[clone_idx*self.batch_size_per_gpu:(clone_idx+1)*self.batch_size_per_gpu, :, :, :], self.trainable)
                             # self.net_var = tf.global_variables()
                             label_sbbox_per_gpu = label_sbbox[clone_idx*self.batch_size_per_gpu:(clone_idx+1)*self.batch_size_per_gpu, :, :, :, :]
@@ -242,7 +227,6 @@ class YoloTrain(object):
                 print("second")
                 train_op = self.train_op_with_all_variables
 
-            # pbar = tqdm(self.trainset)
             pbar = trange(self.steps_per_period)
             train_epoch_loss, test_epoch_loss = [], []
 
@@ -254,12 +238,6 @@ class YoloTrain(object):
                 pbar.set_description("train loss: %.2f" %train_step_loss)
                 if int(global_step_val) % 10 == 0:
                     self.summary_writer.add_summary(summary, global_step_val)
-
-                # batch = dataset_iter.get_next()
-                # np_el = self.sess.run(batch)
-                # print (np_el)
-                # input_data, label_sbbox_per_gpu, label_mbbox_per_gpu, label_lbbox_per_gpu,\
-                #                         true_sbboxes_per_gpu, true_mbboxes_per_gpu, true_lbboxes_per_gpu, batch_bboxes_gt = dataset_iter.get_next()
 
             # for test_data in self.testset:
             #     test_step_loss = self.sess.run( self.total_loss, feed_dict={
