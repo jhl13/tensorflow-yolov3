@@ -42,6 +42,7 @@ class YoloTrain(object):
         self.testset             = Dataset('test')
         self.gpus = utils.get_available_gpus(cfg.TRAIN.GPU_NUM)
         self.steps_per_period    = len(self.trainset) // len(self.gpus)
+        self.steps_test          = len(self.testset) // len(self.gpus)
         self.sess                = tf.Session(config=tf.ConfigProto(allow_soft_placement=True))
         self.batch_size_per_gpu = cfg.TRAIN.BATCH_SIZE // cfg.TRAIN.GPU_NUM
         self.clone_scopes = ['clone_%d'%(idx) for idx in range(len(self.gpus))]
@@ -86,14 +87,22 @@ class YoloTrain(object):
                                                       #var_list=second_stage_trainable_var_list)
         
         with tf.device('/cpu:0'):
-            dataset = tf.data.Dataset.from_generator(lambda: self.trainset, \
+            train_dataset = tf.data.Dataset.from_generator(lambda: self.trainset, \
                 output_types=(tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32))
-            dataset = dataset.repeat()
-            dataset = dataset.prefetch(buffer_size=50)
-            dataset_iter = dataset.make_one_shot_iterator()
-            input_data, label_sbbox, label_mbbox, label_lbbox, \
-                                    true_sbboxes, true_mbboxes, true_lbboxes, batch_bboxes_gt = dataset_iter.get_next()
+            train_dataset = train_dataset.repeat()
+            train_dataset = train_dataset.prefetch(buffer_size=50)
+            train_dataset_iter = train_dataset.make_one_shot_iterator()
+            
+            test_dataset = tf.data.Dataset.from_generator(lambda: self.testset, \
+                output_types=(tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32))
+            test_dataset = test_dataset.repeat()
+            test_dataset = test_dataset.prefetch(2)
+            test_dataset_iter = test_dataset.make_one_shot_iterator()
 
+            input_data, label_sbbox, label_mbbox, label_lbbox, \
+                                    true_sbboxes, true_mbboxes, true_lbboxes, batch_bboxes_gt = \
+                                        tf.cond(self.trainable, lambda: train_dataset_iter.get_next(), lambda: test_dataset_iter.get_next())
+        
         self.total_loss = 0; # for summary only
         self.giou_loss = 0;
         self.conf_loss = 0;
@@ -221,6 +230,7 @@ class YoloTrain(object):
                 train_op = self.train_op_with_all_variables
 
             pbar = trange(self.steps_per_period)
+            test = trange(self.steps_test)
             train_epoch_loss, test_epoch_loss = [], []
 
             for i in pbar:
@@ -229,29 +239,20 @@ class YoloTrain(object):
 
                 train_epoch_loss.append(train_step_loss)
                 pbar.set_description("train loss: %.2f" %train_step_loss)
-                if int(global_step_val) % 10 == 0:
+                if int(global_step_val) % 100 == 0:
                     self.summary_writer.add_summary(summary, global_step_val)
 
-            # for test_data in self.testset:
-            #     test_step_loss = self.sess.run( self.total_loss, feed_dict={
-            #                                     self.input_data:   test_data[0],
-            #                                     self.label_sbbox:  test_data[1],
-            #                                     self.label_mbbox:  test_data[2],
-            #                                     self.label_lbbox:  test_data[3],
-            #                                     self.true_sbboxes: test_data[4],
-            #                                     self.true_mbboxes: test_data[5],
-            #                                     self.true_lbboxes: test_data[6],
-            #                                     self.trainable:    False,
-            #     })
+            for j in test:
+                test_step_loss = self.sess.run( self.total_loss, feed_dict={self.trainable:    False})
 
-            #     test_epoch_loss.append(test_step_loss)
+                test_epoch_loss.append(test_step_loss)
 
-            # train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
-            # ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
-            # log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-            # print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
-            #                 %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
-            # self.saver.save(self.sess, ckpt_file, global_step=epoch)
+            train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
+            ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
+            log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+            print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
+                            %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
+            self.saver.save(self.sess, ckpt_file, global_step=epoch)
 
 
 

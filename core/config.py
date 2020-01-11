@@ -54,7 +54,7 @@ __C.TRAIN.GPU_NUM               = 1
 __C.TEST                        = edict()
 
 __C.TEST.ANNOT_PATH             = "./data/dataset/voc_test.txt"
-__C.TEST.BATCH_SIZE             = 2
+__C.TEST.BATCH_SIZE             = 6
 __C.TEST.INPUT_SIZE             = 544
 __C.TEST.DATA_AUG               = False
 __C.TEST.WRITE_IMAGE            = True
