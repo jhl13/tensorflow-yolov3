@@ -21,7 +21,7 @@ from tqdm import trange
 from core.dataset import Dataset
 from core.yolov3 import YOLOV3
 from core.config import cfg
-
+os.environ["CUDA_VISIBLE_DEVICES"] = cfg.TRAIN.GPU
 
 class YoloTrain(object):
     def __init__(self):
@@ -211,13 +211,6 @@ class YoloTrain(object):
             print('=> %s does not exist !!!' % self.initial_weight)
             print('=> Now it starts to train YOLOV3 from scratch ...')
             self.first_stage_epochs = 0
-
-        dataset = tf.data.Dataset.from_generator(lambda: self.trainset, \
-            output_types=(tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.float32, tf.bool, tf.float32))
-        dataset = dataset.shuffle(buffer_size=100)
-        dataset = dataset.batch(6)
-        dataset = dataset.repeat()
-        dataset_iter = dataset.make_one_shot_iterator()
 
         for epoch in range(1, 1+self.first_stage_epochs+self.second_stage_epochs):
             if epoch <= self.first_stage_epochs:

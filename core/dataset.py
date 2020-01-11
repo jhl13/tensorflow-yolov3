@@ -39,6 +39,7 @@ class Dataset(object):
 
         self.annotations = self.load_annotations(dataset_type)
         self.num_samples = len(self.annotations)
+        print ("num_samples: %d"%self.num_samples)
         self.num_batchs = int(np.ceil(self.num_samples / self.batch_size))
         self.batch_count = 0
 
@@ -78,7 +79,9 @@ class Dataset(object):
             if self.batch_count < self.num_batchs:
                 while num < self.batch_size:
                     index = self.batch_count * self.batch_size + num
-                    if index >= self.num_samples: index -= self.num_samples
+                    if index >= self.num_samples:
+                        print (index) 
+                        index -= self.num_samples
                     annotation = self.annotations[index]
                     image, bboxes = self.parse_annotation(annotation)
                     label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes = self.preprocess_true_boxes(bboxes)
@@ -96,7 +99,6 @@ class Dataset(object):
                         batch_bboxes[num][i, :] = bboxes[i][:4][[1, 0, 3, 2]] / self.train_input_size
                     num += 1
                 self.batch_count += 1
-                # print (index)
                 return batch_image, batch_label_sbbox, batch_label_mbbox, batch_label_lbbox, \
                        batch_sbboxes, batch_mbboxes, batch_lbboxes, batch_bboxes
             else:
