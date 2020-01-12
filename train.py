@@ -41,8 +41,8 @@ class YoloTrain(object):
         self.trainset            = Dataset('train')
         self.testset             = Dataset('test')
         self.gpus = utils.get_available_gpus(cfg.TRAIN.GPU_NUM)
-        self.steps_per_period    = len(self.trainset) // len(self.gpus)
-        self.steps_test          = len(self.testset) // len(self.gpus)
+        self.steps_per_period    = len(self.trainset)
+        self.steps_test          = len(self.testset)
         self.sess                = tf.Session(config=tf.ConfigProto(allow_soft_placement=True))
         self.batch_size_per_gpu = cfg.TRAIN.BATCH_SIZE // cfg.TRAIN.GPU_NUM
         self.clone_scopes = ['clone_%d'%(idx) for idx in range(len(self.gpus))]
@@ -69,10 +69,6 @@ class YoloTrain(object):
         # shadow_variable = decay * shadow_variable + (1 - decay) * variable
         with tf.name_scope("define_weight_decay"):
             self.moving_ave = tf.train.ExponentialMovingAverage(self.moving_ave_decay).apply(tf.trainable_variables())
-
-        with tf.name_scope('loader_and_saver'):
-            self.loader = tf.train.Saver(tf.global_variables())
-            self.saver  = tf.train.Saver(tf.global_variables(), max_to_keep=5)
 
         with tf.name_scope('define_input'):
             self.trainable     = tf.placeholder(dtype=tf.bool, name='training')
@@ -189,6 +185,10 @@ class YoloTrain(object):
         self.write_op = tf.summary.merge_all()
         self.summary_writer  = tf.summary.FileWriter(logdir, graph=self.sess.graph)
 
+        with tf.name_scope('loader_and_saver'):
+            self.loader = tf.train.Saver(tf.global_variables())
+            self.saver  = tf.train.Saver(tf.global_variables(), max_to_keep=5)
+
     def sum_gradients(self, clone_grads):
         """计算梯度
         Arguments:
@@ -233,26 +233,27 @@ class YoloTrain(object):
             test = trange(self.steps_test)
             train_epoch_loss, test_epoch_loss = [], []
 
-            for i in pbar:
-                _, summary, train_step_loss, global_step_val = self.sess.run(
-                    [train_op, self.write_op, self.total_loss, self.global_step],feed_dict={self.trainable:    True})
+            # for i in pbar:
+            #     _, summary, train_step_loss, global_step_val = self.sess.run(
+            #         [train_op, self.write_op, self.total_loss, self.global_step],feed_dict={self.trainable:    True})
 
-                train_epoch_loss.append(train_step_loss)
-                pbar.set_description("train loss: %.2f" %train_step_loss)
-                if int(global_step_val) % 100 == 0:
-                    self.summary_writer.add_summary(summary, global_step_val)
+            #     train_epoch_loss.append(train_step_loss)
+            #     pbar.set_description("train loss: %.2f" %train_step_loss)
+            #     if int(global_step_val) % 100 == 0:
+            #         self.summary_writer.add_summary(summary, global_step_val)
 
             for j in test:
                 test_step_loss = self.sess.run( self.total_loss, feed_dict={self.trainable:    False})
 
-                test_epoch_loss.append(test_step_loss)
+            #     test_epoch_loss.append(test_step_loss)
+                test.set_description("test loss: %.2f" %test_step_loss)
 
-            train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
-            ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
-            log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-            print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
-                            %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
-            self.saver.save(self.sess, ckpt_file, global_step=epoch)
+            # train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
+            # ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
+            # log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+            # print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
+            #                 %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
+            # self.saver.save(self.sess, ckpt_file, global_step=epoch)
 
 
 
