@@ -233,27 +233,27 @@ class YoloTrain(object):
             test = trange(self.steps_test)
             train_epoch_loss, test_epoch_loss = [], []
 
-            # for i in pbar:
-            #     _, summary, train_step_loss, global_step_val = self.sess.run(
-            #         [train_op, self.write_op, self.total_loss, self.global_step],feed_dict={self.trainable:    True})
+            for i in pbar:
+                _, summary, train_step_loss, global_step_val = self.sess.run(
+                    [train_op, self.write_op, self.total_loss, self.global_step],feed_dict={self.trainable:    True})
 
-            #     train_epoch_loss.append(train_step_loss)
-            #     pbar.set_description("train loss: %.2f" %train_step_loss)
-            #     if int(global_step_val) % 100 == 0:
-            #         self.summary_writer.add_summary(summary, global_step_val)
+                train_epoch_loss.append(train_step_loss)
+                pbar.set_description("train loss: %.2f" %train_step_loss)
+                if int(global_step_val) % 100 == 0:
+                    self.summary_writer.add_summary(summary, global_step_val)
 
             for j in test:
                 test_step_loss = self.sess.run( self.total_loss, feed_dict={self.trainable:    False})
 
-            #     test_epoch_loss.append(test_step_loss)
+                test_epoch_loss.append(test_step_loss)
                 test.set_description("test loss: %.2f" %test_step_loss)
 
-            # train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
-            # ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
-            # log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-            # print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
-            #                 %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
-            # self.saver.save(self.sess, ckpt_file, global_step=epoch)
+            train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
+            ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
+            log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
+            print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
+                            %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
+            self.saver.save(self.sess, ckpt_file, global_step=epoch)
 
 
 

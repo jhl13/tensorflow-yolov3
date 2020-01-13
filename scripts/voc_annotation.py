@@ -50,5 +50,3 @@ if __name__ == '__main__':
     num2 = convert_voc_annotation(os.path.join(flags.data_path, 'train/VOCdevkit/VOC2012'), 'trainval', flags.train_annotation, False)
     num3 = convert_voc_annotation(os.path.join(flags.data_path, 'test/VOCdevkit/VOC2007'),  'test', flags.test_annotation, False)
     print('=> The number of image for train is: %d\tThe number of image for test is:%d' %(num1 + num2, num3))
-
-
