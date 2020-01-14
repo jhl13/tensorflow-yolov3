@@ -66,10 +66,6 @@ class YoloTrain(object):
             )
             self.global_step_update = tf.assign_add(self.global_step, 1.0)
 
-        # shadow_variable = decay * shadow_variable + (1 - decay) * variable
-        with tf.name_scope("define_weight_decay"):
-            self.moving_ave = tf.train.ExponentialMovingAverage(self.moving_ave_decay).apply(tf.trainable_variables())
-
         with tf.name_scope('define_input'):
             self.trainable     = tf.placeholder(dtype=tf.bool, name='training')
 
@@ -158,6 +154,11 @@ class YoloTrain(object):
 
         averaged_first_stage_gradients = self.sum_gradients(first_stage_gradients)
         first_stage_apply_grad_op = self.first_stage_optimizer.apply_gradients(averaged_first_stage_gradients)
+        
+        # shadow_variable = decay * shadow_variable + (1 - decay) * variable
+        with tf.name_scope("define_weight_decay"):
+            self.moving_ave = tf.train.ExponentialMovingAverage(self.moving_ave_decay).apply(tf.trainable_variables())
+            
         # 会先执行定义的操作，再执行后续的操作
         with tf.control_dependencies(tf.get_collection(tf.GraphKeys.UPDATE_OPS)):
             with tf.control_dependencies([first_stage_apply_grad_op, self.global_step_update]):
@@ -244,10 +245,11 @@ class YoloTrain(object):
                     self.summary_writer.add_summary(summary, global_step_val)
 
             for j in test:
-                test_step_loss = self.sess.run( self.total_loss, feed_dict={self.trainable:    False})
+                test_step_loss, test_step_giou_loss, test_step_conf_loss, test_step_prob_loss \
+                    = self.sess.run([self.total_loss, self.giou_loss, self.conf_loss, self.prob_loss],feed_dict={self.trainable:    False})
 
                 test_epoch_loss.append(test_step_loss)
-                test.set_description("test loss: %.2f" %test_step_loss)
+                test.set_description("test loss: %.2f, giou_loss: %.2f, conf_loss: %.2f, prob_loss: %.2f" %(test_step_loss, test_step_giou_loss, test_step_conf_loss, test_step_prob_loss))
 
             train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
             ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
@@ -259,6 +261,7 @@ class YoloTrain(object):
                 self.saver.save(self.sess, ckpt_file, global_step=epoch)
                 print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
                             %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
+                test_best_loss = test_epoch_loss
             else:
                 print("=> Epoch: %2d Time: %s we don't save model this epoch ..."
                             %(epoch, log_time))
