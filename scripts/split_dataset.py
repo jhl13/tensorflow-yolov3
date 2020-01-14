@@ -23,15 +23,23 @@ if __name__ == '__main__':
     train_dir = "/home/luo13/workspace/datasets/detection/food/train"
     test_dir = "/home/luo13/workspace/datasets/detection/food/test"
     
+    train_VOCdevkit_dir = os.path.join(train_dir, "VOCdevkit")
+    test_VOCdevkit_dir = os.path.join(test_dir, "VOCdevkit")
+
     if not os.path.exists(train_dir):
         os.mkdir(train_dir)
     if not os.path.exists(test_dir):
         os.mkdir(test_dir)
+
+    if not os.path.exists(train_VOCdevkit_dir):
+        os.mkdir(train_VOCdevkit_dir)
+    if not os.path.exists(test_VOCdevkit_dir):
+        os.mkdir(test_VOCdevkit_dir)
     
-    train_image_dir = os.path.join(train_dir, "image")
-    train_ann_dir = os.path.join(train_dir, "ann")
-    test_image_dir = os.path.join(test_dir, "image")
-    test_ann_dir = os.path.join(test_dir, "ann")
+    train_image_dir = os.path.join(train_VOCdevkit_dir, "JPEGImages")
+    train_ann_dir = os.path.join(train_VOCdevkit_dir, "Annotations")
+    test_image_dir = os.path.join(test_VOCdevkit_dir, "JPEGImages")
+    test_ann_dir = os.path.join(test_VOCdevkit_dir, "Annotations")
     if not os.path.exists(train_image_dir):
         os.mkdir(train_image_dir)
     if not os.path.exists(train_ann_dir):
