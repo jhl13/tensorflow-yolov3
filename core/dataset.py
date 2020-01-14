@@ -159,6 +159,52 @@ class Dataset(object):
             bboxes[:, [1, 3]] = bboxes[:, [1, 3]] + ty
 
         return image, bboxes
+    
+    def bright_contrast(self, image, bboxes, c=0.2, b=10):
+        if random.random() < 0.5:
+            p = random.random()
+            if p < 0.4:
+                c = random.uniform(-c, c)
+                b = random.randint(-b*1.5, b)
+                image = cv2.addWeighted(image, 1, image, c, b)
+            elif p < 0.7:
+                b = random.randint(-b*1.5, b)
+                image = cv2.addWeighted(image, 1, image, c, b)
+            else:
+                c = random.uniform(-c, c)
+                image = cv2.addWeighted(image, 1, image, c, b)
+        return image, bboxes
+
+    def blur(self, image, bboxes, blur_type='gaussian', degree=6, angle=45):
+        p = random.random()
+        blur_type='motion'
+        if random.random() < 0.5:
+            if blur_type == 'motion':
+                image = np.array(image)
+
+                # 这里生成任意角度的运动模糊kernel的矩阵， degree越大，模糊程度越高
+                degree = random.randint(2, degree)
+                angle = random.randint(-angle, angle)
+                if angle == 0:
+                    angle = 35
+                M = cv2.getRotationMatrix2D((degree // 2, degree // 2), angle, 1)
+                motion_blur_kernel = np.diag(np.ones(degree))
+                motion_blur_kernel = cv2.warpAffine(motion_blur_kernel, M, (degree, degree))
+            
+                motion_blur_kernel = motion_blur_kernel / degree
+                image = cv2.filter2D(image, -1, motion_blur_kernel)
+            
+                # convert to uint8
+                cv2.normalize(image, image, 0, 255, cv2.NORM_MINMAX)
+                image = np.array(image, dtype=np.uint8)
+                return image, bboxes
+            elif blur_type == 'gaussian':
+                _ksize = [3, 5, 7, 9]
+                _ksize_choose = random.sample(_ksize, 1)
+                return cv2.GaussianBlur(image, ksize=(_ksize_choose, _ksize_choose), sigmaX=0, sigmaY=0), bboxes
+            else:
+                return image, bboxes
+        return image, bboxes
 
     def parse_annotation(self, annotation):
 
@@ -173,6 +219,9 @@ class Dataset(object):
             image, bboxes = self.random_horizontal_flip(np.copy(image), np.copy(bboxes))
             image, bboxes = self.random_crop(np.copy(image), np.copy(bboxes))
             image, bboxes = self.random_translate(np.copy(image), np.copy(bboxes))
+            image, bboxes = self.bright_contrast(np.copy(image), np.copy(bboxes))
+            image, bboxes = self.blur(np.copy(image), np.copy(bboxes))
+
 
         image, bboxes = utils.image_preporcess(np.copy(image), [self.train_input_size, self.train_input_size], np.copy(bboxes))
         return image, bboxes
