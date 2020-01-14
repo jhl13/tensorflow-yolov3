@@ -187,7 +187,7 @@ class YoloTrain(object):
 
         with tf.name_scope('loader_and_saver'):
             self.loader = tf.train.Saver(tf.global_variables())
-            self.saver  = tf.train.Saver(tf.global_variables(), max_to_keep=5)
+            self.saver  = tf.train.Saver(tf.global_variables(), max_to_keep=3)
 
     def sum_gradients(self, clone_grads):
         """计算梯度
@@ -212,6 +212,7 @@ class YoloTrain(object):
         return averaged_grads
 
     def train(self):
+        test_best_loss = 0;
         self.sess.run(tf.global_variables_initializer())
         try:
             print('=> Restoring weights from: %s ... ' % self.initial_weight)
@@ -251,11 +252,16 @@ class YoloTrain(object):
             train_epoch_loss, test_epoch_loss = np.mean(train_epoch_loss), np.mean(test_epoch_loss)
             ckpt_file = "./checkpoint/yolov3_test_loss=%.4f.ckpt" % test_epoch_loss
             log_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-            print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
+
+            if epoch == 1:
+                test_best_loss = test_epoch_loss
+            if test_epoch_loss <= test_best_loss:
+                self.saver.save(self.sess, ckpt_file, global_step=epoch)
+                print("=> Epoch: %2d Time: %s Train loss: %.2f Test loss: %.2f Saving %s ..."
                             %(epoch, log_time, train_epoch_loss, test_epoch_loss, ckpt_file))
-            self.saver.save(self.sess, ckpt_file, global_step=epoch)
-
-
+            else:
+                print("=> Epoch: %2d Time: %s we don't save model this epoch ..."
+                            %(epoch, log_time))
 
 if __name__ == '__main__': YoloTrain().train()
 

@@ -1,0 +1,592 @@
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_121.jpg 499,99,780,403,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1092.jpg 160,131,592,560,14 680,156,1022,490,4 173,537,590,768,15 568,461,962,768,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_129.jpg 141,339,452,669,34 543,124,852,486,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574418288.jpg 549,178,665,279,6 406,412,726,732,2 860,197,975,359,38 904,220,1017,375,38 723,418,1024,722,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_191.jpg 351,401,704,718,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309856.jpg 1,114,319,439,2 345,152,604,411,17 184,384,488,687,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_17.jpg 277,116,668,522,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574399141.jpg 255,189,524,463,0 548,148,873,472,2 410,428,721,736,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_161.jpg 200,105,499,414,7 351,440,687,699,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2714.jpg 469,388,1001,766,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_706.jpg 446,440,777,768,36 65,439,439,768,3 402,137,715,442,19 756,138,1024,481,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574312446.jpg 41,144,361,467,2 1,455,268,719,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_652.jpg 249,143,636,473,36 753,240,1024,617,4 465,459,848,768,3 112,457,426,768,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574314063.jpg 192,118,514,439,2 147,428,481,765,34 512,139,773,400,0 643,394,946,697,1 799,191,887,301,6
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_719.jpg 131,89,291,519,11 342,97,519,247,13 631,93,819,474,12 400,419,796,647,10 805,140,958,311,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_497.jpg 342,430,659,746,27 368,125,678,439,28 659,273,983,588,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_542.jpg 649,146,1024,469,4 224,127,659,553,5 505,435,894,760,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_319.jpg 119,95,406,382,21 240,383,530,664,32 596,100,880,397,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574399406.jpg 112,204,314,352,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_157.jpg 358,411,651,705,2 32,152,420,508,9 570,177,803,396,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2082.jpg 181,147,705,714,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2695.jpg 144,206,477,717,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_487.jpg 751,284,1024,666,3 117,160,497,511,4 360,400,787,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574301693.jpg 41,128,439,686,26 450,178,546,286,6 356,354,726,723,27 504,239,612,338,6 771,241,1002,463,25 751,536,973,762,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_392.jpg 54,119,382,440,27 364,222,672,533,28 617,416,940,731,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_392.jpg 361,92,791,516,23 756,347,1023,723,3 118,273,447,660,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_48.jpg 168,153,595,580,14 627,256,936,574,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574483890.jpg 168,322,467,616,32 381,159,622,403,17 543,315,857,628,2 804,133,1024,394,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310556.jpg 120,110,392,382,0 186,391,422,638,17 416,454,653,690,17 651,470,895,715,17 440,133,764,455,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574306439.jpg 3,181,351,700,29 346,454,598,700,0 314,142,627,454,22 583,308,897,619,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_260.jpg 98,382,420,698,39 213,98,534,404,30 412,443,727,755,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_100.jpg 146,414,474,686,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_93.jpg 577,436,881,754,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_120.jpg 134,186,473,518,34 618,348,917,686,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1109.jpg 155,427,579,768,14 680,156,1022,490,4 563,461,957,768,3 236,121,658,453,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397980.jpg 311,315,408,404,6 362,392,474,482,6 409,299,504,403,6
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_154.jpg 450,145,875,567,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_127.jpg 24,127,447,550,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574306770.jpg 638,152,896,407,0 377,128,633,383,17 43,383,358,690,2 228,137,323,255,6 413,393,724,693,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309778.jpg 74,201,385,505,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_37.jpg 96,89,406,385,2 216,401,442,634,8 485,312,820,712,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_143.jpg 188,129,520,464,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_401.jpg 277,168,424,320,11 97,162,292,297,10 224,65,363,194,13 401,114,542,278,12 657,321,802,464,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_121.jpg 144,201,485,510,34 614,336,935,684,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_428.jpg 35,420,467,768,23 626,148,986,497,3 139,126,530,447,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1649.jpg 556,152,939,461,36 177,166,536,523,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1957.jpg 533,239,879,603,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2043.jpg 120,88,552,517,40 59,434,579,767,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_445.jpg 626,148,986,497,3 578,488,976,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_843.jpg 359,53,619,308,0 562,254,896,724,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_662.jpg 1,166,308,471,20 410,105,725,402,21 330,492,864,766,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574395870.jpg 1,201,337,645,23 239,421,546,724,32 533,158,862,673,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1832.jpg 1,326,368,679,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_668.jpg 571,150,948,483,36 451,431,830,768,3 118,457,429,768,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_232.jpg 119,299,505,662,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574419137.jpg 17,258,329,569,30 309,375,577,638,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_203.jpg 124,382,498,696,7 527,214,903,544,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574306447.jpg 1,365,288,666,18 376,450,693,760,2 336,159,584,408,17 581,204,836,465,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_368.jpg 174,150,606,576,23 618,159,943,539,3 407,496,798,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_597.jpg 189,390,515,677,20 75,129,369,397,21 478,123,952,652,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574297768.jpg 537,144,939,480,3 1,103,443,544,14 308,426,738,768,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/9pic_211.jpg 92,111,395,414,1 568,289,820,539,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_202.jpg 183,375,551,678,7 546,182,891,531,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_598.jpg 270,139,588,459,27 150,431,461,740,28 454,396,771,712,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574316125.jpg 97,117,498,672,29 475,363,793,680,2 704,154,1024,467,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1817.jpg 259,303,590,687,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_180.jpg 47,242,349,562,7 376,192,693,504,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574326670.jpg 196,176,313,269,6 345,253,789,686,35 706,190,1004,497,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397234.jpg 125,203,383,466,0 389,179,716,505,28 711,164,1024,502,7 235,457,539,767,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396562.jpg 198,188,460,447,0 375,405,680,713,22 567,165,891,488,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308886.jpg 1,134,257,394,0 240,131,568,458,2 570,186,812,428,17 76,389,384,697,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_170.jpg 559,359,861,672,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574400593.jpg 60,228,325,493,0 435,305,531,428,6 591,179,910,502,2 204,467,506,766,1 558,499,810,749,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_672.jpg 571,150,947,479,36 442,449,824,768,3 116,309,433,652,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2007.jpg 197,241,629,670,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574319496.jpg 25,122,344,448,2 440,152,539,259,6 605,154,859,406,17 58,438,360,740,30 355,415,662,719,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2415.jpg 317,396,528,607,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_228.jpg 270,394,666,692,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_703.jpg 445,435,777,768,36 65,439,439,768,3 247,164,584,476,19 756,138,1024,481,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_18.jpg 1,102,310,438,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_430.jpg 196,256,397,393,10 174,384,383,529,11 354,505,516,697,12 822,532,999,701,37 678,103,838,252,13
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1472.jpg 24,154,453,584,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_841.jpg 262,199,813,762,26
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_166.jpg 504,352,797,659,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_248.jpg 247,205,654,610,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_538.jpg 649,146,1024,469,4 166,167,613,601,5 503,434,892,759,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396827.jpg 616,192,1024,633,35 710,605,915,765,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_201.jpg 270,401,571,743,7 531,194,919,523,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574379766.jpg 611,370,1023,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_231.jpg 587,54,974,431,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_168.jpg 481,350,804,670,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574399298.jpg 5,229,268,492,0 308,200,565,452,17 106,466,424,768,2 528,378,835,686,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574416749.jpg 21,175,277,432,17 104,471,420,763,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1692.jpg 588,282,965,631,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_178.jpg 168,56,566,396,9 55,339,402,660,2 597,280,820,536,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_23.jpg 82,134,404,458,2 532,172,878,578,9 346,412,554,633,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1744.jpg 128,303,499,644,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309003.jpg 231,119,554,447,2 157,405,258,505,6 209,433,323,574,38 362,435,584,653,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_446.jpg 626,148,986,497,3 578,488,976,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_273.jpg 85,380,424,695,39 217,104,520,408,30 545,268,843,585,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_472.jpg 654,203,1002,564,3 99,194,470,546,4 357,406,795,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310391.jpg 12,101,558,482,29 240,470,554,768,2 549,210,857,517,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1906.jpg 404,369,751,733,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_838.jpg 560,256,880,723,29 364,68,605,315,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309849.jpg 287,216,615,532,2 286,528,589,768,1 612,212,866,466,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_12.jpg 171,179,472,476,20 397,404,708,714,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1809.jpg 259,303,579,697,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_157.jpg 184,113,481,448,7 445,437,753,727,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574421276.jpg 177,203,504,527,2 190,526,506,768,2 516,137,752,377,8 474,370,697,590,8 747,199,1021,507,21 604,495,909,768,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1168.jpg 724,432,1024,768,4 389,463,729,768,3 550,127,945,448,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2002.jpg 399,294,831,723,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_876.jpg 72,246,486,768,26 482,420,873,746,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309152.jpg 286,176,547,429,0 669,286,824,448,38 327,354,758,766,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_181.jpg 51,268,393,574,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/9pic_171.jpg 223,385,521,683,1 567,286,818,539,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309182.jpg 258,399,513,662,0 549,208,986,648,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_52.jpg 528,138,865,451,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_484.jpg 654,203,1002,564,3 104,186,472,541,4 360,400,787,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574487982.jpg 103,90,370,356,0 395,133,566,217,38 414,193,580,261,38 592,159,813,384,8 66,362,370,665,30 366,337,684,651,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574426679.jpg 704,162,1012,470,22 724,472,987,729,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2014.jpg 109,219,541,648,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1608.jpg 513,274,945,708,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574482201.jpg 254,178,368,321,38 304,204,423,356,38 707,128,1024,458,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_460.jpg 595,411,870,686,21 368,89,648,369,32 82,272,361,551,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2118.jpg 562,237,872,737,24 163,148,525,498,4 80,489,491,768,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397208.jpg 153,187,419,455,0 343,427,647,732,18 486,151,808,471,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2192.jpg 21,184,499,761,24 554,484,767,694,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574305872.jpg 220,140,544,460,2 557,191,818,449,0 528,451,830,741,1 18,352,259,584,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2234.jpg 266,323,479,533,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_240.jpg 54,362,322,649,16 463,345,716,588,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574390692.jpg 293,236,416,333,6 293,332,408,421,6 259,447,566,747,30 485,209,753,475,0 599,502,914,768,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_473.jpg 62,214,348,500,22 372,85,660,373,32 384,419,702,690,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308908.jpg 1,134,257,394,0 240,131,568,458,2 570,186,812,428,17 76,389,383,698,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_875.jpg 72,246,486,768,26 481,416,873,746,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_417.jpg 1,227,198,393,10 2,470,170,646,11 148,483,323,686,12 485,85,625,229,13 656,316,798,482,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_97.jpg 636,369,1024,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2709.jpg 429,248,982,682,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/9pic_151.jpg 223,385,521,683,1 565,287,819,539,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1437.jpg 91,373,531,768,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1094.jpg 160,131,592,560,14 680,156,1022,490,4 563,461,957,768,3 46,555,488,763,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_72.jpg 41,440,353,749,20 639,306,944,626,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_244.jpg 82,151,513,577,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_113.jpg 426,223,811,609,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_6.jpg 507,382,820,696,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574486671.jpg 382,162,911,495,26
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396598.jpg 12,182,276,443,0 330,189,639,505,21 85,436,404,747,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574301917.jpg 87,170,427,505,34 544,176,885,511,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_243.jpg 89,160,377,458,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_18.jpg 352,401,658,725,20 628,196,911,495,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_504.jpg 668,375,1005,763,3 208,138,596,457,4 112,433,544,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1193.jpg 801,392,1024,768,4 46,287,389,670,3 383,390,742,755,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574386555.jpg 11,166,460,613,23 523,164,972,611,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_51.jpg 533,137,871,455,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_718.jpg 149,99,308,482,11 354,105,508,229,13 381,408,792,626,10 592,105,809,466,12 784,149,971,322,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_979.jpg 373,205,773,759,26 34,151,469,583,14 744,281,1022,666,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_54.jpg 176,167,602,592,14 626,374,931,681,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_132.jpg 24,127,449,549,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_204.jpg 470,65,789,396,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_746.jpg 765,103,970,306,37 339,70,585,288,13
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_60.jpg 176,167,604,592,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2661.jpg 185,180,754,733,24 647,227,854,435,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_111.jpg 308,128,654,439,34 127,403,462,703,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_413.jpg 290,276,722,707,23 626,148,985,496,3 11,133,347,514,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574482550.jpg 470,162,558,325,38 535,152,620,314,38 165,110,427,374,0 694,172,894,315,11 830,139,994,278,37 174,374,503,700,7 526,336,953,755,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_496.jpg 342,430,659,746,27 368,125,678,439,28 659,273,983,588,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_403.jpg 213,421,556,718,22 85,123,392,435,32 457,111,766,411,39
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1102.jpg 155,427,579,768,14 680,156,1022,490,4 563,461,957,768,3 106,119,528,451,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_183.jpg 728,220,1024,538,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_146.jpg 62,242,377,568,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_393.jpg 54,119,382,440,27 364,222,672,533,28 617,416,940,731,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_165.jpg 175,193,528,622,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2494.jpg 114,142,676,705,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_522.jpg 406,149,793,465,4 76,336,508,767,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574412966.jpg 104,151,425,471,1 245,436,562,747,2 703,420,1015,739,2 739,136,989,382,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_127.jpg 315,168,734,537,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574298214.jpg 224,396,619,731,3 73,108,410,452,34 483,135,821,472,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1774.jpg 579,153,913,530,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_242.jpg 71,256,333,585,16 457,364,697,592,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_167.jpg 507,358,807,671,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_70.jpg 176,167,605,595,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574298380.jpg 287,276,400,382,6 462,269,895,696,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_144.jpg 197,138,549,491,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1792.jpg 580,380,934,739,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1026.jpg 522,335,946,760,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309960.jpg 519,137,843,457,2 738,353,1024,659,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_168.jpg 177,146,496,418,7 364,450,670,720,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_9.jpg 263,175,563,464,16 576,273,818,511,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1974.jpg 279,371,644,721,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_632.jpg 122,26,315,188,10 292,186,431,322,37 802,169,1015,309,12 471,503,615,686,11 316,393,460,518,13
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_517.jpg 406,149,793,465,4 76,336,508,767,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_835.jpg 400,250,767,768,26
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_67.jpg 519,143,873,517,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_206.jpg 470,359,856,746,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_128.jpg 523,124,851,455,34 551,470,866,762,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1214.jpg 708,245,1024,604,3 134,263,463,653,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_244.jpg 327,181,705,581,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_253.jpg 267,143,550,437,16 465,345,803,615,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_338.jpg 117,88,410,385,21 137,385,419,663,32 531,281,823,568,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_67.jpg 49,178,275,396,8 403,59,724,388,2 177,355,562,704,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_102.jpg 439,174,843,562,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574307700.jpg 258,147,520,412,0 541,138,866,461,28 198,401,447,649,17 454,437,754,736,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2683.jpg 198,180,626,738,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1839.jpg 1,214,342,542,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_494.jpg 760,324,1024,702,3 208,138,596,457,4 112,433,544,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2483.jpg 773,235,992,441,25 112,222,669,768,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_43.jpg 155,66,494,414,27 356,434,680,725,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1685.jpg 515,191,892,540,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574316178.jpg 254,173,568,494,22 574,227,890,546,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_36.jpg 157,96,465,416,27 477,106,785,445,27 162,435,471,711,34 502,456,820,739,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574469695.jpg 129,239,460,632,4 443,213,878,649,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574312560.jpg 7,140,324,463,2 1,420,203,725,1 406,197,669,459,0 368,472,701,768,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574330956.jpg 1,254,262,518,0 182,454,482,755,30 387,202,711,524,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1266.jpg 602,164,995,489,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397559.jpg 142,415,458,722,30 502,441,812,747,30 305,188,554,433,17 612,184,862,436,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_909.jpg 282,363,857,768,26 600,135,1021,558,14 47,167,422,527,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2089.jpg 181,147,705,718,24 3,428,355,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_435.jpg 411,456,564,659,12 195,248,385,398,10 181,380,372,538,11 669,97,827,255,13 822,455,1012,634,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396989.jpg 1,279,191,427,12 180,174,516,511,34 380,359,823,768,35 573,169,847,434,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_303.jpg 111,261,424,577,39 407,357,703,671,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2626.jpg 343,248,912,768,24 232,250,444,462,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574405946.jpg 143,223,452,536,18 123,525,378,768,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_407.jpg 292,256,739,704,23 754,347,1024,718,3 11,133,347,514,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574312041.jpg 1,208,151,320,38 29,244,168,368,38 182,149,444,414,0 1,397,267,703,21 311,370,630,686,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_74.jpg 145,346,421,648,20 643,313,944,636,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574341190.jpg 1,243,231,562,2 216,344,526,657,30 469,198,613,347,10
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1391.jpg 532,263,913,584,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_183.jpg 554,410,783,650,8 42,325,385,650,2 162,34,585,405,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574313133.jpg 136,401,439,702,21 216,141,489,414,0 494,131,816,461,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_119.jpg 519,97,840,417,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574395321.jpg 31,159,358,485,2 155,467,419,724,0 443,326,542,464,38 515,365,589,496,38 539,465,843,758,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396749.jpg 107,141,631,478,29 68,478,381,768,2 464,496,703,731,17 630,216,932,527,1 703,511,1008,766,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_694.jpg 564,373,913,745,36 65,439,439,768,3 231,174,542,487,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574385033.jpg 1,460,85,567,6 85,138,412,467,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310691.jpg 135,235,394,493,0 407,228,726,547,2 204,527,505,768,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_37.jpg 544,140,860,462,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_389.jpg 358,90,788,514,23 648,370,973,756,3 118,273,447,660,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_46.jpg 350,313,703,635,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_41.jpg 538,137,866,454,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_618.jpg 146,61,446,386,21 5,379,270,710,20 513,165,848,690,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574331213.jpg 105,183,370,452,0 87,452,418,768,27 429,144,761,474,34 701,428,923,647,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_260.jpg 463,377,718,592,17 407,69,693,358,16
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_159.jpg 478,231,901,658,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574483088.jpg 204,100,378,249,11 138,309,443,614,30 399,172,666,439,0 689,129,974,424,16 594,407,905,714,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1756.jpg 256,180,616,538,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1233.jpg 198,271,546,636,3 664,241,1024,580,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_97.jpg 347,179,654,483,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_539.jpg 1,256,301,582,27 296,195,606,505,28 587,274,912,594,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_752.jpg 48,75,582,429,29 13,453,327,727,20 315,422,568,666,0 645,366,957,665,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574395842.jpg 61,405,371,711,21 249,143,571,472,2 572,195,831,456,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574412038.jpg 404,144,725,467,2 796,153,1024,464,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574421899.jpg 198,198,520,528,2 504,322,780,593,0 734,174,1024,480,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1903.jpg 418,365,752,745,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_572.jpg 77,177,363,487,21 366,357,669,667,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311150.jpg 16,188,172,282,38 59,261,176,353,6
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574298229.jpg 24,181,342,505,19 342,487,661,768,19 359,154,693,492,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574421369.jpg 81,201,305,428,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_524.jpg 406,149,793,465,4 76,336,508,767,5 504,453,901,768,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574395973.jpg 66,270,158,389,6 31,425,366,756,20 292,167,739,616,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_12.jpg 142,149,473,449,2 449,367,671,587,8 549,72,966,433,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_429.jpg 824,538,981,696,37 645,86,814,255,13 193,249,374,385,10 166,377,354,530,11 343,499,500,697,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_582.jpg 754,196,1024,546,4 504,435,901,765,36 1,370,362,737,3 208,92,641,513,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1939.jpg 221,177,609,513,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310045.jpg 125,182,471,705,29 449,372,753,675,1 659,147,979,469,2 750,457,990,690,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_569.jpg 270,142,592,459,27 440,411,748,718,28 695,251,1024,572,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_607.jpg 270,139,588,459,27 150,431,461,740,28 454,396,774,711,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308714.jpg 159,153,469,463,18 525,178,959,622,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_208.jpg 4,245,296,536,2 283,476,493,692,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_167.jpg 177,209,509,609,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_698.jpg 564,373,913,745,36 65,439,439,768,3 231,174,542,487,19 756,138,1024,481,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_49.jpg 541,135,860,455,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_238.jpg 418,146,813,517,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1089.jpg 160,131,592,560,14 682,168,1024,502,4 173,537,590,768,15 571,478,966,768,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574334333.jpg 43,224,149,318,6 23,320,135,407,6 69,409,374,709,30 270,215,521,465,17 411,415,730,731,2 516,161,781,428,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309675.jpg 596,424,897,719,18 778,162,1024,486,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_547.jpg 649,146,1024,469,4 224,127,659,553,5 505,435,894,760,36 59,440,435,766,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398013.jpg 143,449,447,750,30 159,159,424,427,0 408,264,729,585,2 709,169,962,418,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2262.jpg 12,439,235,648,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_37.jpg 151,87,466,418,27 493,105,783,435,27 356,436,678,727,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2084.jpg 181,147,705,714,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_1.jpg 286,175,554,451,16 573,279,820,515,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574341236.jpg 15,396,360,733,7 280,206,589,517,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574307838.jpg 96,277,427,627,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_149.jpg 78,304,395,616,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574403671.jpg 1,186,312,515,2 222,447,481,706,0 352,181,669,504,18 588,519,755,741,11
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1611.jpg 513,274,945,708,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574335310.jpg 31,178,344,485,30 68,539,217,628,38 48,595,218,675,38 227,430,562,768,27 343,179,606,450,0 601,145,856,401,17 547,392,863,712,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1793.jpg 580,380,934,739,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_573.jpg 69,187,354,487,21 353,351,659,675,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574470003.jpg 2,467,293,762,15 517,171,661,312,13 688,239,781,348,6 612,372,948,709,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_52.jpg 60,365,380,670,20 546,418,854,734,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_967.jpg 394,234,798,768,26 34,151,469,583,14 806,147,1024,475,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308743.jpg 1,140,238,388,17 227,178,546,502,2 73,442,379,747,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_540.jpg 1,256,301,582,27 296,195,606,505,28 588,274,913,594,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_246.jpg 127,234,424,539,16 463,354,699,596,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_202.jpg 96,306,403,615,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_162.jpg 480,235,908,684,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397639.jpg 292,182,557,445,0 551,167,1024,505,29 284,465,599,768,28 728,493,1023,768,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396611.jpg 151,233,255,359,6 20,446,331,750,21 277,136,603,465,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_497.jpg 760,324,1024,702,3 208,138,596,457,4 112,433,544,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_248.jpg 81,162,392,472,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_429.jpg 34,420,466,768,23 626,148,986,497,3 139,126,530,447,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398863.jpg 41,212,577,571,29 87,548,407,768,2 595,197,846,445,17 550,451,853,747,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_208.jpg 564,206,903,563,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_252.jpg 71,158,389,465,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_178.jpg 16,324,344,640,7 367,197,792,543,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_702.jpg 255,125,406,273,13 212,255,362,647,11 403,293,613,670,11 631,214,802,637,10 779,145,951,340,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2019.jpg 109,219,541,648,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_448.jpg 169,144,493,464,27 519,146,858,478,28 310,428,632,748,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1482.jpg 24,154,453,584,40 414,148,799,467,4 351,455,719,768,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574322126.jpg 124,466,229,564,6 159,495,298,637,38 355,350,622,621,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574407077.jpg 668,298,991,625,27 354,312,675,639,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_687.jpg 650,309,1021,662,36 64,440,439,768,3 231,174,542,487,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_49.jpg 589,434,937,747,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1517.jpg 348,308,780,742,40 64,223,391,617,4 689,139,1024,501,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396653.jpg 198,159,465,427,0 179,426,496,740,2 504,233,815,549,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_104.jpg 446,199,837,567,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_434.jpg 826,462,1017,640,37 662,97,833,276,13 198,256,391,399,10 165,380,386,536,11 414,456,558,664,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_87.jpg 275,407,609,733,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_682.jpg 158,46,489,356,20 575,113,869,436,21 66,312,600,746,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_38.jpg 95,179,386,503,16 535,290,801,558,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_131.jpg 71,327,410,666,34 473,124,788,450,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_668.jpg 195,235,371,389,13 301,49,710,218,10 779,223,937,372,37 622,327,868,681,12 263,353,603,563,11
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398050.jpg 121,223,382,487,0 333,377,638,685,22 591,212,912,536,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_133.jpg 84,328,410,647,34 484,296,831,626,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_432.jpg 34,420,466,768,23 626,148,986,497,3 236,102,641,466,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1029.jpg 521,331,941,759,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574306784.jpg 115,153,450,672,29 380,396,814,768,5 597,195,746,338,37 731,166,895,311,37 731,361,939,536,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_114.jpg 585,117,879,426,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_172.jpg 162,129,485,421,7 332,442,643,733,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_564.jpg 649,146,1024,469,4 505,435,894,760,36 59,440,435,766,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574481896.jpg 176,206,267,320,6 258,183,352,295,6 157,370,466,671,30 366,112,690,436,2 578,433,809,662,8 689,121,1020,464,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_149.jpg 344,143,772,568,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_433.jpg 169,144,493,464,27 560,138,862,445,28 484,442,801,759,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_470.jpg 84,244,365,525,22 364,86,648,370,32 438,412,732,706,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_92.jpg 654,100,1024,488,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_163.jpg 194,197,539,622,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574318731.jpg 332,182,658,510,2 652,270,958,581,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_602.jpg 270,139,588,459,27 150,431,461,740,28 454,396,771,712,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1567.jpg 334,93,766,527,40 17,390,362,768,4 625,381,954,768,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2232.jpg 266,323,479,533,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2719.jpg 268,167,847,706,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_142.jpg 370,277,731,689,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574307527.jpg 430,245,740,556,18 64,146,331,415,0 171,441,483,746,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_189.jpg 74,264,509,693,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_721.jpg 356,77,672,401,20 15,241,399,683,29 463,442,702,670,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_437.jpg 97,322,414,622,22 227,61,551,380,32 623,294,919,586,39
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_219.jpg 399,389,763,746,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574476831.jpg 474,148,734,413,0 722,151,1024,480,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_227.jpg 280,383,670,717,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_245.jpg 96,156,367,459,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_254.jpg 139,203,564,635,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_1.jpg 507,382,820,696,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_716.jpg 354,99,512,241,13 92,161,335,521,11 323,200,668,416,12 379,424,868,625,10 773,147,963,306,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_254.jpg 108,414,408,715,21 216,104,518,401,30 637,163,927,458,18 470,448,770,747,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_223.jpg 442,410,774,736,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311777.jpg 101,177,374,449,0 83,443,398,753,2 424,416,735,720,30 559,206,785,428,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574319039.jpg 70,155,389,478,2 411,140,687,403,0 312,435,615,736,21 607,393,846,628,17 708,227,874,319,38 707,289,862,386,38
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2124.jpg 558,236,881,738,24 193,146,567,485,4 215,480,579,768,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_803.jpg 379,167,692,478,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_17.jpg 357,417,659,717,20 611,191,922,502,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_79.jpg 157,336,554,698,9 432,74,766,405,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1797.jpg 540,365,876,736,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_228.jpg 419,309,769,697,9 87,370,304,581,8 137,39,447,342,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398099.jpg 247,170,593,505,7 677,191,996,501,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1285.jpg 370,166,754,494,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_176.jpg 620,322,939,643,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_83.jpg 114,338,441,649,20 628,326,939,629,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309912.jpg 312,169,402,285,6 148,333,470,651,2 464,182,779,497,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574307926.jpg 343,284,460,432,38 485,133,737,389,17 732,161,1024,485,2 341,451,601,716,0 601,440,901,739,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_159.jpg 323,339,636,647,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_613.jpg 681,165,1024,543,4 256,138,640,470,36 516,493,889,768,3 90,438,522,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574486818.jpg 135,139,401,402,0 421,143,753,470,2 704,293,1008,590,32 138,420,473,754,7 507,474,754,717,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_270.jpg 670,435,1024,765,9 723,88,1024,422,2 542,292,775,503,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_304.jpg 406,362,706,664,32 111,257,421,569,39 577,94,887,401,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310743.jpg 1,114,209,438,2 141,336,400,593,0 377,140,695,457,22 427,451,731,750,21
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_972.jpg 394,234,798,768,26 34,151,469,583,14 794,183,1024,554,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_120.jpg 485,89,796,402,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_548.jpg 649,146,1024,469,4 224,127,659,553,5 505,435,894,760,36 59,440,435,766,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1911.jpg 370,303,691,697,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1537.jpg 289,177,721,611,40 566,486,864,768,4 689,139,1024,501,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396451.jpg 204,148,481,409,0 535,143,786,397,17 170,406,490,728,2 517,397,828,703,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_529.jpg 421,421,577,596,37 241,47,408,206,13 1,210,208,364,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574319011.jpg 25,236,336,543,1 188,496,453,762,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_198.jpg 202,405,510,713,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311881.jpg 16,147,282,414,0 2,411,260,656,17 298,122,622,447,2 404,436,708,734,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2723.jpg 268,167,847,706,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_217.jpg 430,311,861,739,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_407.jpg 136,290,463,616,27 408,130,717,434,28 553,392,886,717,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_483.jpg 359,433,659,760,27 527,178,727,412,28 667,451,994,764,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_773.jpg 68,482,376,768,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1658.jpg 177,166,536,523,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574481493.jpg 1,302,237,651,7 303,113,410,209,6 324,155,474,281,38 221,303,440,524,8 515,106,838,432,2 383,378,934,768,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_561.jpg 148,160,470,477,27 406,424,714,731,28 658,251,987,572,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398257.jpg 162,214,539,743,29 527,345,833,656,30 763,133,1024,456,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_122.jpg 470,289,843,662,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_612.jpg 265,136,588,459,27 150,431,461,740,28 454,396,774,711,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2156.jpg 254,278,822,737,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_587.jpg 270,142,592,459,27 308,450,619,759,28 584,196,903,518,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2195.jpg 21,184,499,761,24 554,484,767,694,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_98.jpg 230,84,440,311,8 583,116,894,447,2 199,313,613,652,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_721.jpg 110,86,261,482,11 235,86,405,228,13 279,386,681,626,10 490,86,715,431,12 680,121,858,293,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311087.jpg 1,151,85,320,38 1,363,143,617,0 139,116,396,378,17 161,393,474,699,30 420,166,745,490,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_164.jpg 443,353,740,663,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_567.jpg 520,443,660,598,37 670,98,828,249,13 248,228,439,377,11 291,423,459,599,12 605,291,776,436,10
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396493.jpg 389,439,693,736,1 126,449,377,694,17 224,168,495,436,0 518,139,841,463,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1038.jpg 486,326,921,757,14 136,153,514,508,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_72.jpg 601,170,946,536,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_593.jpg 754,196,1024,546,4 251,140,635,472,36 5,367,366,734,3 350,443,780,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_101.jpg 556,350,976,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_132.jpg 12,249,359,600,9 512,68,751,310,8 539,355,854,663,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_235.jpg 139,381,465,683,16 454,341,727,594,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_442.jpg 169,144,493,464,27 560,138,862,445,28 323,420,645,740,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_64.jpg 176,167,603,591,14
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_78.jpg 113,336,424,652,20 616,310,943,627,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_717.jpg 402,137,714,446,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1137.jpg 79,380,507,768,14 800,258,1024,623,4 512,473,904,768,3 445,132,840,453,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_137.jpg 91,90,417,412,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_8.jpg 269,171,565,456,16 582,260,833,522,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_374.jpg 387,120,680,408,21 90,328,383,618,32 454,404,744,688,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574322725.jpg 124,189,380,443,17 406,155,848,607,23
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2221.jpg 510,173,723,383,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396927.jpg 79,136,404,461,2 313,371,579,633,0 562,176,869,489,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_176.jpg 394,233,728,544,7 27,420,362,724,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_97.jpg 435,170,851,565,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1424.jpg 91,373,531,768,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_62.jpg 129,165,443,473,20 498,352,823,671,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_24.jpg 331,414,560,629,8 532,183,865,578,9 96,102,420,411,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_220.jpg 443,424,770,722,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_248.jpg 113,411,413,713,39 200,104,545,409,30 621,155,943,471,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574485474.jpg 318,150,389,323,38 370,161,439,332,38 554,100,821,368,0 221,360,530,662,32 530,366,840,682,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1163.jpg 59,207,483,634,14 724,432,1024,768,4 388,463,728,768,3 550,127,945,448,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_29.jpg 478,134,808,436,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_141.jpg 43,102,357,418,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_558.jpg 776,454,952,631,37 678,100,837,254,13 431,251,588,407,12 170,237,381,377,10 150,363,363,505,11
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2245.jpg 1,534,232,747,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_863.jpg 72,248,488,768,26 535,494,934,768,15 648,146,990,517,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_564.jpg 70,291,362,581,21 492,371,810,702,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310496.jpg 35,166,285,412,17 318,129,642,455,2 216,455,519,751,30 647,197,914,456,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1704.jpg 558,371,896,738,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574409794.jpg 723,208,1024,523,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_441.jpg 626,148,986,497,3 578,488,976,768,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_155.jpg 3,407,324,720,16 490,339,803,637,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311989.jpg 153,270,251,374,6 153,416,397,665,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_710.jpg 13,212,399,702,29 366,84,656,423,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_130.jpg 231,76,554,399,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1151.jpg 59,207,483,634,14 775,406,1024,768,4 427,464,817,768,3 445,132,840,453,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_258.jpg 141,203,567,635,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574390595.jpg 98,209,415,533,2 417,267,669,518,17 659,139,972,451,1 235,625,328,724,6 324,626,416,750,6 450,566,601,653,38 447,612,616,712,38 620,450,942,759,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_94.jpg 610,207,1005,573,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574388582.jpg 672,325,1024,759,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_162.jpg 184,198,547,625,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_583.jpg 79,184,354,472,21 341,358,648,682,20 542,111,996,636,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_617.jpg 6,389,269,689,20 97,66,397,380,21 513,161,846,697,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_164.jpg 180,160,511,413,7 334,431,707,721,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311985.jpg 523,169,847,492,2 466,476,778,768,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_719.jpg 558,160,867,469,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2690.jpg 55,211,395,721,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_182.jpg 162,295,596,725,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_150.jpg 193,131,491,435,7 433,418,749,720,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_477.jpg 288,380,612,705,27 524,183,827,489,28 653,443,984,763,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574311709.jpg 141,170,410,437,0 222,412,529,717,21 455,174,779,493,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_681.jpg 199,255,367,616,11 410,443,794,660,12 247,132,409,270,13 313,31,698,232,10 696,145,865,303,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_597.jpg 270,139,588,459,27 150,431,461,740,28 480,378,799,700,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_147.jpg 72,289,404,584,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574485889.jpg 526,195,634,286,6 1,322,213,632,18 275,355,591,663,2 715,176,966,429,17 585,405,883,703,32
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574403745.jpg 446,229,707,488,0 668,378,977,678,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_130.jpg 58,325,405,662,34 456,124,792,464,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574480334.jpg 74,126,388,439,1 393,162,660,429,0 657,167,972,489,28 364,468,468,579,6 443,510,685,751,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_88.jpg 190,297,608,633,9 453,72,762,391,2 220,84,459,312,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_97.jpg 406,424,751,730,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_764.jpg 215,69,689,400,29 11,370,286,657,20 325,437,570,667,0 624,436,924,730,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_493.jpg 760,324,1024,702,3 208,138,596,457,4 112,433,544,768,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_45.jpg 336,278,702,632,27
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_588.jpg 754,196,1024,546,4 165,52,588,415,36 5,367,366,734,3 348,396,780,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574480196.jpg 212,177,519,461,16 581,146,920,477,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_262.jpg 393,56,691,375,16 463,351,691,609,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1927.jpg 158,173,527,525,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574327986.jpg 8,176,279,466,18 249,326,532,610,0 557,212,850,512,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_491.jpg 633,286,808,434,10 622,419,797,581,11
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_733.jpg 405,79,527,200,13 218,75,507,395,11 519,166,783,491,10 606,78,879,400,12 795,107,971,292,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1814.jpg 259,303,590,687,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_41.jpg 296,136,589,453,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_169.jpg 393,317,825,747,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_107.jpg 556,348,977,768,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2649.jpg 165,358,706,740,24 388,133,600,345,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1082.jpg 150,199,582,628,14 682,179,1024,513,4 234,613,586,768,15 584,485,966,768,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_526.jpg 306,52,474,234,13 40,218,255,368,12 473,430,630,594,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_788.jpg 94,260,403,584,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_831.jpg 385,245,915,768,26
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1953.jpg 383,178,754,515,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308237.jpg 115,153,384,427,0 683,176,908,397,8 376,191,692,505,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574422219.jpg 174,234,482,549,30 426,467,666,702,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574419730.jpg 220,265,314,382,6 87,416,420,750,27 343,189,674,519,2 590,389,895,693,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_453.jpg 179,144,503,464,27 502,176,810,481,28 310,428,632,748,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1062.jpg 155,278,587,707,14 585,210,943,572,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_192.jpg 121,110,424,416,7 365,431,674,721,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_233.jpg 88,306,521,744,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_27.jpg 150,98,469,405,16 507,279,810,534,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_763.jpg 217,435,528,748,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574308619.jpg 415,282,744,619,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_110.jpg 318,122,636,440,34 162,436,485,756,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574396017.jpg 110,151,434,473,2 397,340,654,597,0 637,209,946,518,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_40.jpg 537,135,871,457,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1751.jpg 120,223,507,559,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_7.jpg 458,178,871,565,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1074.jpg 151,260,583,689,14 588,140,940,510,4 478,534,893,767,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574416648.jpg 221,226,556,569,34 611,214,862,468,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_125.jpg 207,103,539,413,16 539,320,763,598,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574316205.jpg 180,184,402,405,8 203,393,505,695,30 454,220,774,536,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_132.jpg 271,170,666,578,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_40.jpg 142,86,474,405,27 496,109,806,439,27 340,448,689,727,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574399486.jpg 193,170,517,493,2 570,223,885,533,30
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_182.jpg 746,224,1018,552,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/5pic_177.jpg 122,189,477,598,33
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574395288.jpg 57,423,367,735,21 231,215,497,481,0 508,176,832,500,28
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1293.jpg 697,232,1024,582,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_223.jpg 164,451,404,669,8 424,313,769,697,9 133,38,442,351,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398113.jpg 120,154,382,422,0 390,207,708,524,30 704,170,1024,492,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_177.jpg 282,307,716,738,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_417.jpg 238,341,673,768,23 626,148,986,497,3 11,133,347,514,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574398366.jpg 65,182,371,497,30 201,475,506,768,1 375,210,716,554,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_119.jpg 451,334,877,758,35 25,126,447,553,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574318929.jpg 62,320,370,625,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2622.jpg 429,147,959,721,24 232,250,444,462,25
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_122.jpg 489,99,793,413,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_174.jpg 169,147,577,470,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_191.jpg 88,260,371,528,16 467,339,705,575,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574321473.jpg 263,184,593,497,16 627,234,973,566,7 114,447,448,768,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1152.jpg 59,207,483,634,14 775,406,1024,768,4 427,464,817,768,3 445,132,840,453,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_206.jpg 542,203,866,532,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_116.jpg 132,312,467,640,34 555,261,907,581,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1729.jpg 228,338,568,721,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_20.jpg 362,406,639,718,20 602,194,911,502,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_442.jpg 106,312,432,621,22 234,65,552,372,32 624,313,907,600,39
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574309225.jpg 102,430,412,736,1 196,118,522,443,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_31.jpg 176,172,607,606,14 639,249,942,569,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_249.jpg 111,191,551,627,35
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_394.jpg 361,92,791,516,23 753,347,1023,721,3 119,273,443,661,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1054.jpg 281,411,715,768,14 566,188,945,554,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574303609.jpg 154,160,474,479,2 171,476,475,760,22
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_90.jpg 536,447,888,752,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574421150.jpg 192,274,451,539,0 376,443,684,748,1 509,158,834,478,2 698,404,1024,737,7 827,172,1024,416,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574333790.jpg 281,172,592,480,18 632,141,945,466,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_362.jpg 174,150,606,576,23 619,158,941,536,3
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_516.jpg 704,451,876,616,37 546,77,700,224,13 329,245,478,395,12 25,369,280,508,11 36,231,259,372,10
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_629.jpg 174,74,465,343,21 538,203,875,717,29 46,341,355,636,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1834.jpg 1,357,328,696,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_583.jpg 270,142,592,459,27 385,435,696,744,28 584,196,903,518,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_619.jpg 169,73,465,359,21 7,395,255,682,20 526,187,832,658,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_101.jpg 687,136,987,449,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_157.jpg 464,154,890,617,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2057.jpg 496,95,928,524,40 59,434,579,767,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_844.jpg 362,66,609,291,0 562,260,881,724,29
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2181.jpg 21,184,499,761,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_148.jpg 61,307,410,617,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_129.jpg 24,127,448,552,5
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574486640.jpg 130,209,450,532,2 464,150,717,407,17 643,326,947,630,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_873.jpg 72,246,486,768,26 481,418,873,746,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574320882.jpg 269,197,526,451,17 501,357,823,667,2
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2176.jpg 21,184,499,761,24 576,127,1007,552,40
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2691.jpg 43,212,371,720,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/11pic_10.jpg 168,180,469,484,20 412,424,714,712,20
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_177.jpg 608,320,925,631,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2480.jpg 773,235,992,441,25 132,232,723,768,24
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1978.jpg 118,381,510,707,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1059.jpg 208,328,661,760,14 585,210,943,572,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574479911.jpg 222,144,387,236,38 57,310,358,618,21 371,352,686,666,2 710,482,830,639,38 648,193,897,450,17 428,114,585,259,10
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574479242.jpg 92,128,419,455,2 487,154,826,489,7 285,416,585,716,21 666,488,911,733,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/7pic_443.jpg 169,144,493,464,27 560,138,862,445,28 323,420,645,740,7
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574332009.jpg 70,145,392,470,2 389,199,641,453,17 394,465,697,762,21 643,186,897,448,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_237.jpg 124,400,474,666,16 463,356,737,605,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/2pic_50.jpg 539,142,864,455,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1829.jpg 18,318,403,662,36
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574335777.jpg 322,256,442,405,38 396,254,477,345,38 211,419,533,732,2 531,466,756,685,8 547,183,812,447,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_425.jpg 188,487,362,682,12 0,243,239,375,10 8,373,215,514,11 516,81,677,255,13 681,514,831,691,37
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1702.jpg 558,371,896,738,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_89.jpg 212,96,458,317,8 460,83,772,393,2 204,277,597,650,9
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_658.jpg 571,150,949,480,36 452,432,839,768,3 112,457,426,768,19
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1904.jpg 418,365,752,745,4
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/0pic_4.jpg 265,186,561,483,16 584,273,816,520,17
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1pic_253.jpg 74,166,397,467,18
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/9pic_137.jpg 54,353,352,651,1 565,287,819,539,0
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/3pic_436.jpg 835,472,1011,631,37 667,99,828,249,13 200,256,382,392,10 177,384,377,535,11 423,459,561,659,12
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1146.jpg 59,207,483,634,14 800,265,1024,658,4 427,464,817,768,3 445,132,840,453,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/6pic_233.jpg 328,352,708,698,9 145,45,450,348,2 96,361,296,592,8
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_707.jpg 451,440,776,768,36 84,442,446,768,3 402,137,715,442,19 756,138,1024,481,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574486973.jpg 69,146,334,406,0 212,364,516,672,1 423,131,746,455,2 614,407,943,739,34
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574397172.jpg 1,203,201,466,0 204,244,465,502,17 132,494,439,768,30 564,177,885,505,28 874,210,1024,468,0 793,475,1021,768,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/4pic_171.jpg 563,355,861,666,31
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_1198.jpg 46,287,389,670,3 383,390,742,755,15
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/1574310601.jpg 348,136,611,401,0 266,407,583,720,2 651,201,732,367,38 722,212,798,351,38 837,162,1024,414,17 638,405,943,706,1
+/home/ljh/workspace/datasets/food/test/VOCdevkit/JPEGImages/8pic_2674.jpg 198,180,777,704,24

@@ -34,7 +34,7 @@ if __name__ == "__main__":
         image = cv2.imread(image_path)
         # cv2.imshow("image", image)
         # cv2.waitKey(0)
-        print ("%d/%d Drawing %s"%(image_index + 1, len(img_paths), image_path))
+        # print ("%d/%d Drawing %s"%(image_index + 1, len(img_paths), image_path))
         xml_path = os.path.join(ann_dir, image_path.split('/')[-1][:-4] + '.xml')
         xml_tree = ET.parse(xml_path)
         root = xml_tree.getroot()
@@ -45,8 +45,8 @@ if __name__ == "__main__":
                 location = []
                 for name in ann_object.iter("name"):
                     object_dict["name"] = name.text
-                    # if name.text == "念念香菇肉饼":
-                    #     print (image_path)
+                    if name.text == "虫草":
+                        print (image_path)
                     if name.text not in food_names:
                         food_names.append(name.text)
                 for bndbox in ann_object.iter("bndbox"):
